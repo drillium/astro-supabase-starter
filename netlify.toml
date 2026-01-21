@@ -2,4 +2,4 @@
   for = "/.well-known/apple-app-site-association"
   [headers.values]
     Content-Type = "application/json"
-    Cache-Control = "public, max-age=0, must-revalidate"
+    Cache-Control = "no-cache"
