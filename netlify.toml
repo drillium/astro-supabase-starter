@@ -1,6 +1,5 @@
-[build]
-  publish = "dist"
-  command = "npm run build"
-
-[template]
-  required-extensions = ["supabase"]
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
